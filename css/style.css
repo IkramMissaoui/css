@@ -1,0 +1,91 @@
+/* general */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/* start header */
+header .logo {
+    display: inline-block;
+}
+header nav {
+    display: inline-block;
+    float: right;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+header nav ul li a:hover {
+    color: rgb(0, 255, 21);
+}
+/* start content home */
+section.content-home {
+    padding: 50px 0;
+    background: #00ffff1f;
+    text-align: center;
+}
+/* start content video */
+section.content-video {
+    text-align: center;
+    padding: 50px 0;
+    background-image: linear-gradient(to right, red , blue);
+}
+/* start section audio */
+section.content-audio {
+    position: relative;
+    padding: 80px;
+    height: 500px;
+    text-align: center;
+    background-image: url(../images/nsu3cSp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.content-audio::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.212);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* start section photos */
+section.content-image {
+    padding: 50px 0;
+    background: beige;
+}
+section.content-image .photo1 {
+    max-width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+section.content-image .photo1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section.content-image .content-box {
+    text-align: justify;
+}
+/* start footer */
+footer {
+    padding: 50px;
+    background-image: linear-gradient(red, yellow, blue);
+    text-align: center;
+    color: white;
+}
+.footer-logo {
+    text-align: center;
+}
+.fa-facebook:before , .fa-instagram:before {
+    color: white;
+}
